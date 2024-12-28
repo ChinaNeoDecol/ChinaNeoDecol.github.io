@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 800px) {
+    body {
+	width: calc(100% - 8rem) !important;
+    }
+    #logo {
+	width: 100%;
+    }
+}
+@media screen and (min-width: 640px) {
+    #logo {
+	width: calc(640px - 8rem);
+    }
+}
+
+body {
+    background-color: white;
+    color: black;
+    margin: 4rem;
+    /* font-family: serif */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 640px;
+}
+
+ul {
+    list-style-type: square;
+    /* list-style-position: inside; */
+    padding-left: 1rem;
+}
+li {
+    padding-left: 0.5rem;
+}
+
+a {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+}
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+#title {
+    /* font-family: Didot, Times, "Times New Roman", serif; */
+    font-family: Times, "Times New Roman", serif;
+}
